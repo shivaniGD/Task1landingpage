@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{padding: 0; margin: 0; box-sizing: border-box;font-family: sans-serif;}
+        header{
+            width: 100%;
+            height: 100vh;
+            background-image: url("https://img.freepik.com/premium-photo/tasty-pizza-white-background-veggie-pizza-with-tomatoes-olives-mushrooms-cheese_220925-14852.jpg?w=2000");
+            background-size: 50% 90%;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            position: relative;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            padding: 0px 70px;
+            background: white;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 2px 0px 5px gray;
+        }
+        .logo{
+              font-weight: bold;
+              font-size: 2em;
+              letter-spacing: 2px;
+        }
+        .logo span{
+            color: brown;
+        }
+        .menu a{
+            text-decoration: none;
+            color: black;
+            padding:  10px 20px;
+        }
+        .menu a:last-child{
+            background: brown;
+            color: white;
+            border-radius: 8px;
+        }
+        .h-text{
+            position: absolute;
+            top :30%;
+            left: 5%;
+            padding: 15px;
+        }
+        .h-text p{
+            color: #262626;
+            letter-spacing: 3px;
+            font-weight: bold;
+        }
+        .h-text h1{
+            font-size: 4em;
+            line-height: 1.5em;
+        }
+        .h-text h1 span{
+            color: brown;
+        }
+        .h-text h2{
+            font-size: 4em;
+            margin-bottom:  0.5em;
+        }
+        #order{
+            text-decoration: none;
+            color:white;
+            background: brown;
+            border-radius: 8px;
+            padding: 10px 20px;
+        }
+        #dis{
+            text-decoration: none;
+            color:white;
+            background: #262626;
+            border-radius: 8px;
+            padding: 10px 20px;
+        }
+        #pizza{
+            position: absolute;
+            bottom: 15%;
+            left: 5%;
+            height: 5px;
+            width: 5px;
+        }
+        #pizza img{
+            transition: 0.4s ease;
+
+       }
+        #pizza img:hover{
+            transform: translateY(-20px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><span>Pi</span>zzahat</div>
+            <div class="menu">
+                  <a href ="#">Home</a>
+                  <a href ="#">Foods</a>
+                  <a href ="#">Offer</a>
+                  <a href ="#">Your order</a>
+                  <a href ="#">Delivery</a>
+                  <a href ="#">Cart</a>
+            </div>
+        </nav>
+        <div class="h-text">
+            <p>Free Home Delivery</p>
+            <h1>Quality F<span>oo</span>ds</h1>
+            <h2>Pizza Of The Week</h2>
+            <a herf="#" id ="order">Order now!</a>
+            <a href="#" id="dis"> 25% off Hurry!!!</a>
+            
+        </div>
+       <!----<div id="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIjTDPhjugvQ24iU9um0hvxJJr0XKuWTUP7g&usqp=CAU" alt="pizza" width="100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIjTDPhjugvQ24iU9um0hvxJJr0XKuWTUP7g&usqp=CAU" alt="pizza" width="100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIjTDPhjugvQ24iU9um0hvxJJr0XKuWTUP7g&usqp=CAU" alt="pizza" width="100">
+        </div>---->
+    </header>
+</body>
+</html>
